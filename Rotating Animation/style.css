@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .rotate-element {
+    width: 250px;
+    height: 250px;
+    background-color: #3498db;
+    animation: rotateAnimation 5s linear infinite;
+  }
+  
+  h3{
+    text-align: center;
+    margin-top: 115px;
+  }
+  @keyframes rotateAnimation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
